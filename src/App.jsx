@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Projects } from './components';
 
 const App = () => {
