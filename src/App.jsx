@@ -1,22 +1,31 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Projects from './components/Projects';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { BrowserRouter } from 'react-router-dom';
+import { About, Contact, Experience, Hero, Navbar, StarsCanvas, Tech, Works } from './components';
 
-export default function App() {
+const App = () => {
   return (
-    <div className="app">
-      <Navbar />
-      <main>
-        <Hero />
-        <Projects />
+    <BrowserRouter
+      future={{
+        v7_startTransition: true,
+        v7_relativeSplatPath: true,
+      }}
+    >
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          <Hero />
+        </div>
         <About />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+        <Experience />
+        <Tech />
+        <Works />
+        <div className="relative z-0">
+          <Contact />
+          <StarsCanvas />
+        </div>
+      </div>
+    </BrowserRouter>
   );
-}
+};
+
+export default App;
