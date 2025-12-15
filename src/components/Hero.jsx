@@ -23,7 +23,7 @@ const Hero = () => {
           </h1>
 
           {/* FIX: Removed <div> inside <p> by wrapping Typewriter in <span> */}
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <div className={`${styles.heroSubText} mt-2 text-white-100`}>
             I do&nbsp;
             <span className="inline-block">
               <Typewriter
@@ -36,7 +36,7 @@ const Hero = () => {
                 }}
               />
             </span>
-          </p>
+          </div>
         </div>
       </div>
 
