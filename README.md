@@ -1,137 +1,56 @@
-<div align="center">
+# Monica Patel — Unity Game Developer Portfolio
 
-![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Portfolio%20Website%20V2&fontSize=80&animation=fadeIn&fontAlignY=35)
+This repository powers my interactive portfolio, a space where I share my journey as a Unity developer, the studios I have collaborated with, and the games and tools I continue to build. The site couples cinematic 3D canvases with clean storytelling so recruiters, collaborators, and fellow developers can explore my work quickly.
 
-<p align="center">
-  <a href="#features">Features</a> •
-  <a href="#demo">Demo</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#tech-stack">Tech Stack</a>
-</p>
+## About Me
 
-[![GitHub license](https://img.shields.io/github/license/lohitkolluri/Portfolio?style=flat-square)](LICENSE)
-[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fportfolio-lohit.vercel.app)](https://portfolio-lohit.vercel.app)
-[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
+- Unity-focused gameplay engineer with 4+ years shipping titles across mobile, PC, WebGL, and Facebook.
+- Experienced in leading builds from prototype through launch while mentoring junior developers and partnering with art, design, and backend teams.
+- Comfortable weaving multiplayer services, SDK integrations, and platform-specific polish into fast-moving production cycles.
 
-<p align="center">A modern, responsive portfolio website showcasing professional experience, projects, and skills. Built with React, Vite, and Tailwind CSS, featuring smooth animations and interactive 3D elements. ✨</p>
+## Recent Experience
 
-</div>
+| Role | Studio | Timeline | Highlights |
+| --- | --- | --- | --- |
+| Game Developer | Facial Stats AI | Jan 2024 – Oct 2025 | Scaled sports titles with refined feel, platform launches, and localized UX updates. |
+| Unity Developer | NMS Games Developer | Feb 2022 – Oct 2022 | Delivered live casino experiences, API-driven services, and team mentorship. |
+| Unity Developer | Ieko Media LLC | Apr 2021 – Feb 2022 | Built Photon-based multiplayer prototypes with shader-driven presentation. |
+| Game Developer | Invisible Fiction | May 2019 – May 2021 | Shipped multi-platform releases, owning gameplay systems, UI flows, and SDK integrations. |
 
-## ✨ Features
+## Featured Projects
 
-<div align="center">
+- Conquer the Palace — autonomous combat prototype where AI-driven squads race to capture territory.
+- Rugby Tactics — coaching companion app published on iOS that sharpens in-game decision-making.
+- Hockey Chess — training suite that blends drills, strategy tools, and trivia for hockey programs.
+- Clean The City — endless runner optimized for smooth mobile performance and shader-driven polish.
+- Corona Warrior, Spin Warrior, Disease Fighter — action titles with progressively challenging combat loops and stylized art direction.
 
-```mermaid
-mindmap
-  root((Portfolio Website))
-    User Interface
-      Responsive Design
-      Smooth Animations
-      Interactive 3D Elements
-    Sections
-      About Me
-      Experience
-      Projects
-      Contact
-    Technical Features
-      React with Vite
-      Tailwind CSS Styling
-      EmailJS Integration
-    Integrations
-       Email Contact
-      Project Showcase
-```
+## Tech I Lean On
 
-</div>
+- Unity (C#), gameplay architecture, UI toolkits, and profiling workflows.
+- React, Vite, Tailwind CSS, and Three.js for the portfolio frontend and interactive canvases.
+- Version control with Git, multiplayer integrations (Unity Netcode, Photon), and live operations tooling.
 
-## 🚀 Demo
-
-Experience the live portfolio at [https://portfolio-lohit.vercel.app](https://portfolio-lohit.vercel.app)
-
-## 🛠️ Installation
-
-1️⃣ Clone the repository:
+## Running the Portfolio Locally
 
 ```bash
-git clone https://github.com/lohitkolluri/Portfolio-Website
-```
+# install dependencies
 
-2️⃣ Navigate to project directory:
-
-```bash
 cd Portfolio-Website
-```
-
-3️⃣ Install dependencies:
-
-```bash
 npm install
-```
 
-4️⃣ Run development server:
-
-```bash
+# start the dev server
 npm run dev
 ```
 
-5️⃣ Open in browser:
+Then open http://localhost:5173 (or the port shown in the terminal) to explore the site locally.
 
-- Visit [http://localhost:3000](http://localhost:3000)
+## Explore Further
 
-## 💻 Tech Stack
+- The About section expands on my approach to gameplay systems and mobile optimization.
+- Experience outlines the production milestones I delivered across each studio.
+- Projects dive into real shipped work with gallery views and links to live storefronts where available.
+- Contact includes a form that routes messages straight to me for collaborations or opportunities.
 
-<table align="center">
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-      <br>React
-    </td>
-      <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
-      <br>Vite
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
-      <br>Tailwind CSS
-    </td>
-      <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=threejs" width="48" height="48" alt="Three.js" />
-      <br>Three.js
-    </td>
-  </tr>
-</table>
-
-## ⚡ Core Features
-
-- 📱 Responsive Design
-
-  - Mobile-first approach
-  - Seamless experience across all devices
-  - Adaptive layouts and components
-
-- 🎯 Dynamic Content
-
-  - Interactive project showcase
-  - Engaging experience section
-  - Animated skill representations
-
-- 🎨 Modern UI/UX
-
-  - Smooth Framer Motion animations
-  - Intuitive navigation
-  - Clean and professional design
-  - Interactive 3D elements using Three.js
-
-- ✉️ Email Integration
-  - Contact form using EmailJS
-
-## 📄 License
-
-<div align="center">
-
-MIT License © [Lohit Kolluri](LICENSE)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
-
-</div>
+Thanks for visiting and for taking the time to explore what I build.
+```bash
