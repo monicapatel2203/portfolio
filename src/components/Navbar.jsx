@@ -8,9 +8,17 @@ const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
-  const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
-    window.open(resumeUrl);
+  const getResumeUrl = () => {
+    const base = import.meta.env.BASE_URL || '/';
+    const normalizedBase = base.endsWith('/') ? base : `${base}/`;
+    return `${normalizedBase}Resume.pdf`;
+  };
+
+  const handleResumeClick = (shouldCloseMenu) => {
+    window.open(getResumeUrl(), '_blank', 'noopener,noreferrer');
+    if (shouldCloseMenu) {
+      setToggle(false);
+    }
   };
 
   useEffect(() => {
@@ -42,7 +50,7 @@ const Navbar = () => {
           isSecondary ? 'secondary' : 'white'
         } hover:text-white text-[20px] font-medium cursor-pointer`}
       >
-        <button onClick={toggleResume}>Resume</button>
+        <button onClick={() => handleResumeClick(isSecondary)}>Resume</button>
       </li>
     </ul>
   );

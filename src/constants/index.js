@@ -166,7 +166,6 @@ export const projects = [
     ],
     image: ConquerThePalace,
     comingSoon: true,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
   },
   {
     name: "Rugby Tactics",
